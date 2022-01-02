@@ -1,0 +1,46 @@
+* 
+header {
+    display: flex inline;
+    padding: 2px;
+    color: rgb(26, 230, 26);
+    text-align:center
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+body {
+    background-size: cover;
+    background-image:conic-gradient(darkblue, black);
+    color: rgb(204, 8, 204);
+}
+
+.contact {
+    font-weight: bold;
+}
+h2 {
+    font-size: 30px;
+}
+
+footer {
+    text-align:center;
+    padding: 2px;
+}
