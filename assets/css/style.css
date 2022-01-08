@@ -1,4 +1,14 @@
-* 
+:root {
+    --colorone: #113558;
+    --colortwo: #c52020;
+    --colorthree: #3ebead;
+    --colorfour: #e333e9;
+}
+
+::selection {
+    background-color: var(--colortwo);
+    color: var(--colorone);
+}
 header {
     display: flex inline;
     padding: 2px;
@@ -30,11 +40,59 @@ nav ul li {
 body {
     background-size: cover;
     background-image:conic-gradient(darkblue, black);
-    color: rgb(204, 8, 204);
+    color: var(--colorfour);
+}
+.mywork {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.work {
+    flex: 1 1 100%;
+    padding: 2%;
+    margin: 2%;
+}
+
+.examples {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    height: auto;
+    color: var(--colorfour);
+    border: 8px solid var(--colortwo);
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+}
+
+.examples h3 {
+    position: relative;
+    text-align:center;
+    margin:-18px 60px 2px 60px;
+    padding: 2px;
+    background-color: var(--colorone);
+    color: var(--colorfour);
+    border: 2px solid var(--colorthree);
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.img {
+    width: 500px;
+    height: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.examples:hover,
+.examples:hover h3 {
+    box-shadow: inset 0px 0px 8px var(--colorfour), 0 0 15px var(--colorfour);
 }
 
 .contact {
-    font-weight: bold;
+    font-weight:bold;
 }
 h2 {
     font-size: 30px;
