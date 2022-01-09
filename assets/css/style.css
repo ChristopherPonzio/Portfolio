@@ -1,6 +1,6 @@
 :root {
     --colorone: #113558;
-    --colortwo: #c52020;
+    --colortwo: #c90a2a;
     --colorthree: #3ebead;
     --colorfour: #e333e9;
     --colorfive: rgb(26, 230, 26);
@@ -25,21 +25,19 @@ nav {
     padding-top: 15px;
     float: right;
     font-size: 20px;
-}
-
-nav ul {
-    list-style-type: none;
+    margin-right: 20px;
 }
 
 nav ul li {
     display: inline-block;
     padding: 5px;
+    margin-right: 10px;
 }
-
+/* added a hover effect to the nav*/
 nav ul li:hover {
     box-shadow: inset 0px 0px 10px var(--colorfive), 0 0 20px var(--colorfive);
 }
-
+/*conic gradient added a textured background*/
 body {
     background-image:conic-gradient(darkblue, black);
     color: var(--colorfour);
@@ -71,7 +69,7 @@ h2 {
 .me {
     padding: 20px;
 }
-
+/*added hover effect to my picture so users would know it is a link to my linkedin*/
 .himg:hover {
     box-shadow: inset 0px 0px 10px var(--colorfive), 0 0 20px var(--colorfive);
 }
@@ -89,6 +87,17 @@ h2 {
 
 .largework {
     flex: 1 0 100%;
+}
+
+.links {
+    position: relative;
+    text-align:center;
+    margin: -25px 25% 2px 25%;
+    background-color: var(--colorfive);
+    color: var(--colorone);
+    border: 2px solid var(--colortwo);
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
 }
 
 .examples {
@@ -141,26 +150,9 @@ h3 {
 footer {
     text-align:center;
     padding: 2px;
+    color: var(--colortwo)
 }
 
 h4 {
     font-size: 38px;
-}
-
-@media screen and (min-width: 768px) {
-    .card-column {
-      flex: 0 0 50%;
-      max-width: 50%;
-    }
-}
-  /* media query for larger screens */
-  @media screen and (min-width: 992px) {
-    header {
-      width: 75%;
-    }
-  
-    .card-column {
-      flex: 0 0 33.333%;
-      max-width: 33.333%;
-    }
 }
