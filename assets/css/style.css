@@ -3,6 +3,7 @@
     --colortwo: #c52020;
     --colorthree: #3ebead;
     --colorfour: #e333e9;
+    --colorfive: rgb(26, 230, 26);
 }
 
 ::selection {
@@ -11,19 +12,17 @@
 }
 header {
     display: flex inline;
-    padding: 2px;
     color: rgb(26, 230, 26);
-    text-align:center
 }
 
 h1 {
     display: inline-block;
     font-size: 48px;
+    margin-left: 50px;
 }
 
 nav {
     padding-top: 15px;
-    margin-right: 20px;
     float: right;
     font-size: 20px;
 }
@@ -34,40 +33,77 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    padding: 5px;
+}
+
+nav ul li:hover {
+    box-shadow: inset 0px 0px 10px var(--colorfive), 0 0 20px var(--colorfive);
 }
 
 body {
-    background-size: cover;
     background-image:conic-gradient(darkblue, black);
     color: var(--colorfour);
-}
-.mywork {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    margin: 10px;
 }
 
+h2 {
+    font-size: 30px;
+    float: left;
+    padding:2px;
+    margin-left: 2px;
+    color: var(--colorthree);
+}
+
+#AboutMe {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.himg {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.me {
+    padding: 20px;
+}
+
+.himg:hover {
+    box-shadow: inset 0px 0px 10px var(--colorfive), 0 0 20px var(--colorfive);
+}
+
+#MyWork {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: 10%;
+   }
+
 .work {
-    flex: 1 1 100%;
-    padding: 2%;
-    margin: 2%;
+    flex: 1 0 0%;
+}
+
+.largework {
+    flex: 1 0 100%;
 }
 
 .examples {
     display:flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 500px;
+    justify-content: center;
     height: auto;
     color: var(--colorfour);
     border: 8px solid var(--colortwo);
     transition: all 0.5s ease-in-out;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
-.examples h3 {
+h3 {
     position: relative;
     text-align:center;
     margin:-18px 60px 2px 60px;
@@ -80,25 +116,51 @@ body {
 }
 
 .img {
-    width: 500px;
-    height: 100px;
+    width: 100%;
+    height: auto;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
 .examples:hover,
 .examples:hover h3 {
-    box-shadow: inset 0px 0px 8px var(--colorfour), 0 0 15px var(--colorfour);
+    box-shadow: inset 0px 0px 10px var(--colorfive), 0 0 20px var(--colorfive);
 }
 
-.contact {
+#ContactMe {
     font-weight:bold;
+    list-style-type: none;
 }
-h2 {
-    font-size: 30px;
+
+#ContactMe ul li {
+    display:inline-block;
+    padding: 20px;
+    font-size: 20px;
 }
 
 footer {
     text-align:center;
     padding: 2px;
+}
+
+h4 {
+    font-size: 38px;
+}
+
+@media screen and (min-width: 768px) {
+    .card-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+}
+  /* media query for larger screens */
+  @media screen and (min-width: 992px) {
+    header {
+      width: 75%;
+    }
+  
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
 }
