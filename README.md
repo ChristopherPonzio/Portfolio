@@ -11,11 +11,12 @@ This is an image of the code I used to imbed my Linkedin profile to my picture s
 ![Linkedin Code embedded into image](./assets/Images/LinkedInLinkIMG.png)
 
 ## Credits
-1. https://stackoverflow.com
-2. https://w3schools.com
-3. Photo by Vie Studio from Pexels
-4. Photo by cottonbro from Pexels
-5. Photo by pixabay from Pexels
+1. Michelle Blackwell github: https://github/Mblackwellgca
+2. https://stackoverflow.com
+3. https://w3schools.com
+4. Photo by Vie Studio from Pexels
+5. Photo by cottonbro from Pexels
+6. Photo by pixabay from Pexels
 
 ## License
 No License
