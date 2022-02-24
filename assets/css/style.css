@@ -39,7 +39,7 @@ nav ul li:hover {
 }
 /*conic gradient added a textured background*/
 body {
-    background-image:conic-gradient(darkblue, black);
+    background-image: radial-gradient(green, blue, rgb(6, 7, 6));
     color: var(--colorfour);
     margin: 10px;
 }
