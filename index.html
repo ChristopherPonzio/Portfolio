@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Christopher Ponzio | Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css"/>
+    <script src="https://kit.fontawesome.com/5378c88136.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -22,9 +26,9 @@
           I am an up coming Developer.
         </h1>
         <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects">My work</a>
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#contact">Contact me</a>
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">About Me</a>
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects">My Work</a>
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#contact">Contact Me</a>
         </p>
       </div>
     </section>
@@ -34,6 +38,8 @@
     <section id="about">
       <div class="container">
         <h2 class="section-title load-hidden">About me</h2>
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects">My Work</a>
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#contact">Contact Me</a>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
@@ -113,11 +119,21 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/images/gitThere.gif"
-                    ></img>
+                <a rel="noreferrer" href="https://christopherponzio.github.io/Git-There-Project" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/images/gitThere.gif"
+                  ></img>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -154,7 +170,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://shrouded-anchorage-72534.herokuapp.com/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -174,22 +190,23 @@
           </div>
           <!-- /END Project -->
           <hr/>
-          <!-- Notice: each .row is a project Code Quiz-->
-          <div class="row">
+           <!-- Notice: each .row is a project Tech Blog-->
+           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Code Quiz</h3>
+                <h3 class="project-wrapper__text-title">Tech Blog</h3>
                 <div>
                   <p class="mb-4">
-                    This is a 5 question quiz on basic javascript. It has fun functionality 
-                    such as keeping highscores and the background changing color's whether your answer is correct or wrong.
+                    This project was designed for all techies to be
+                     able to have a place to go to blog ideas and 
+                     comment on others post.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://christopherponzio.github.io/Code-Quiz"
+                  href="https://cryptic-castle-12751.herokuapp.com"
                 >
                   See Live
                 </a>
@@ -197,7 +214,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="https://github.com/ChristopherPonzio/Code-Quiz"
+                  href="https://github.com/ChristopherPonzio/Tech-Blog"
                 >
                   Source Code
                 </a>
@@ -205,7 +222,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://cryptic-castle-12751.herokuapp.com" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -216,8 +233,121 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/images/codingQuiz.png"
-                    ></img>
+                      src="assets/images/techBlog.png"
+                      ></img>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <hr/>
+           <!-- Notice: each .row is a project Note Taker-->
+           <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Note Taker</h3>
+                <div>
+                  <p class="mb-4">
+                    This project was designed to make personal or public 
+                    notes and an easy to read lay out. Once you are finished
+                     with a note it can be deleted to make room for new notes.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://stark-dawn-28882.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ChristopherPonzio/noteTaker"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://stark-dawn-28882.herokuapp.com/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/images/noteTaker.png"
+                      ></img>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          <hr/>
+          <!-- Notice: each .row is a project Team Profile Generator-->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Team Profile Generator</h3>
+                <div>
+                  <p class="mb-4">
+                    This project was designed to make creating a team roster
+                     quick and easy. You can run this application in your Node.js
+                      and answer a few questions using the terminal and a team
+                       roster with key information will be saved to an HTML file.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://christopherponzio.github.io/team-profile-generator"
+                >
+                  View Readme
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/ChristopherPonzio/team-profile-generator"
+                >
+                  Source Code
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://watch.screencastify.com/v/qKF120toxd90rH6sYeHC"
+                >
+                  Video Demonstration
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://watch.screencastify.com/v/qKF120toxd90rH6sYeHC" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/images/teamProfile2.png"
+                      ></img>
                   </div>
                 </a>
               </div>
@@ -245,7 +375,7 @@
                   class="cta-btn cta-btn--hero"
                   href="https://christopherponzio.github.io/E-Commerce-Back-End"
                 >
-                  See Live
+                  View Readme
                 </a>
                 <a
                   rel="noreferrer"
@@ -267,7 +397,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://watch.screencastify.com/v/W4WaZdqgoJNQbEkhY1Gm" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -284,6 +414,57 @@
                 </a>
               </div>
             </div>
+          </div>
+          <!-- /END Project -->
+          <hr/>
+          <!-- Notice: each .row is a project Weather Dashboard-->
+          <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Weather Dashboard</h3>
+              <div>
+                <p class="mb-4">
+                  This is a weather app that will give you the weather
+                    details for a city of your choosing and the 5 day forcast.
+                </p>
+              </div>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn cta-btn--hero"
+                href="https://christopherponzio.github.io/Weather-Dashboard"
+              >
+                See Live
+              </a>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn text-color-main"
+                href="https://github.com/ChristopherPonzio/Weather-Dashboard"
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://christopherponzio.github.io/Weather-Dashboard" target="_blank">
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                >
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/images/weatherDashboard.png"
+                    ></img>
+                </div>
+              </a>
+            </div>
+          </div>
           </div>
           <!-- /END Project -->
           <hr/>
@@ -309,7 +490,7 @@
                   class="cta-btn cta-btn--hero"
                   href="https://christopherponzio.github.io/Employee-tracker"
                 >
-                  See Live
+                  View Readme
                 </a>
                 <a
                   rel="noreferrer"
@@ -331,7 +512,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://watch.screencastify.com/v/NG9AGbQzf5vQ67u7pyQY" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -344,58 +525,6 @@
                       class="img-fluid"
                       src="assets/images/employeeTracker.png"
                     ></img>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-          <hr/>
-           <!-- Notice: each .row is a project Note Taker-->
-           <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Note Taker</h3>
-                <div>
-                  <p class="mb-4">
-                    This project was designed to make personal or public 
-                    notes and an easy to read lay out. Once you are finished
-                     with a note it can be deleted to make room for new notes.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://https://stark-dawn-28882.herokuapp.com"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/ChristopherPonzio/noteTaker"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/images/noteTaker.png"
-                      ></img>
                   </div>
                 </a>
               </div>
@@ -436,7 +565,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://christopherponzio.github.io/Password-Generator" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -474,7 +603,7 @@
                   class="cta-btn cta-btn--hero"
                   href="https://christopherponzio.github.io/readme-generator"
                 >
-                  See Live
+                  View Readme
                 </a>
                 <a
                   rel="noreferrer"
@@ -496,7 +625,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://watch.screencastify.com/v/2zNyMpcXzTepQhALmpAm" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -516,24 +645,22 @@
           </div>
           <!-- /END Project -->
           <hr/>
-          <!-- Notice: each .row is a project Team Profile Generator-->
+          <!-- Notice: each .row is a project Code Quiz-->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Team Profile Generator</h3>
+                <h3 class="project-wrapper__text-title">Code Quiz</h3>
                 <div>
                   <p class="mb-4">
-                    This project was designed to make creating a team roster
-                     quick and easy. You can run this application in your Node.js
-                      and answer a few questions using the terminal and a team
-                       roster with key information will be saved to an HTML file.
+                    This is a 5 question quiz on basic javascript. It has fun functionality 
+                    such as keeping highscores and the background changing color's whether your answer is correct or wrong.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://christopherponzio.github.io/team-profile-generator"
+                  href="https://christopherponzio.github.io/Code-Quiz"
                 >
                   See Live
                 </a>
@@ -541,23 +668,15 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="https://github.com/ChristopherPonzio/team-profile-generator"
+                  href="https://github.com/ChristopherPonzio/Code-Quiz"
                 >
                   Source Code
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://watch.screencastify.com/v/qKF120toxd90rH6sYeHC"
-                >
-                  Video Demonstration
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://christopherponzio.github.io/Code-Quiz" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -568,111 +687,8 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/images/teamProfile2.png"
-                      ></img>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-          <hr/>
-          <!-- Notice: each .row is a project Tech Blog-->
-           <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Tech Blog</h3>
-                <div>
-                  <p class="mb-4">
-                    This project was designed for all techies to be
-                     able to have a place to go to blog ideas and 
-                     comment on others post.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://cryptic-castle-12751.herokuapp.com"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/ChristopherPonzio/Tech-Blog"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/images/techBlog.png"
-                      ></img>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-          <hr/>
-           <!-- Notice: each .row is a project Weather Dashboard-->
-           <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Weather Dashboard</h3>
-                <div>
-                  <p class="mb-4">
-                    This is a weather app that will give you the weather
-                     details for a city of your choosing and the 5 day forcast.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://christopherponzio.github.io/Weather-Dashboard"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/ChristopherPonzio/Weather-Dashboard"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/images/weatherDashboard.png"
-                      ></img>
+                      src="assets/images/codingQuiz.png"
+                    ></img>
                   </div>
                 </a>
               </div>
@@ -713,7 +729,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://christopherponzio.github.io/Work-Day-Scheduler" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -748,34 +764,23 @@
             target="_blank"
             class="cta-btn cta-btn--contact"
             href="mailto: Chrisponz11@gmail.com"
-            >Email me
+            >
+            <i class="fa-solid fa-square-envelope"> Email Me</i>
           </a>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--contact"
             href="tel:6784764011"
-            >Call Me
-          </a>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--contact"
-            href="https://github.com/ChristopherPonzio"
-            >Github
-          </a>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--contact"
-            href="https://www.linkedin.com/in/christopher-ponzio-408536227"
-            >linkedin
+            >
+            <i class="fa-solid fa-mobile-screen"> Call Me</i>
           </a>
         </div>
       </div>
     </section>
     <!-- /END Contact Section -->
 
+    <!-- **** Footer Section **** -->
     <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
       <div class="container">
@@ -784,18 +789,17 @@
         </a>
         <div class="social-links">
           <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
+            <i class="fa fa-twitter fa-inverse" style="border: 2px solid silver; border-radius: 0.25em; padding: 0.5em;"> </i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
+          <a rel="noreferrer" href="https://www.linkedin.com/in/christopher-ponzio-408536227" target="_blank">
+            <i class="fa fa-linkedin fa-inverse" style="border: 2px solid silver; border-radius: 0.25em; padding: 0.5em;"> </i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
+          <a rel="noreferrer" href="https://github.com/ChristopherPonzio" target="_blank">
+            <i class="fa fa-github fa-inverse" style="border: 2px solid silver; border-radius: 0.25em; padding: 0.5em;"></i>
           </a>
         </div>
-
-        <hr/>
-
+    <hr/>
+      <p>Thank you for visiting my Portfolio</p>
     <script src="assets/js/index.js"></script>
   </body>
 </html>
