@@ -1,4 +1,4 @@
-# Christopher-Ponzio-s-Portfolio
+# Portfolio
 
 ## Description
 Welcome to my Portfolio Readme. I have created this Portfolio to display the projects I have worked on for myself and parties interested in viewing my work. 
